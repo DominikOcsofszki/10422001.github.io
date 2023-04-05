@@ -4,6 +4,11 @@ pwd
 cd cv_flutter
 pwd
 
+## Build flutter app
+flutter build web
+## Build flutter app
+
+
 cp -R build/web/ ..
 cd ..
 pwd
