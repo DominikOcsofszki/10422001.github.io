@@ -6,8 +6,13 @@
       <excludeFolder url="file://$MODULE_DIR$/voc/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/voc/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/voc/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cv_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/cv_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cv_flutter/.dart_tool" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
