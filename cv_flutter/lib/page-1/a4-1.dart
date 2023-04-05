@@ -76,7 +76,7 @@ class Scene extends StatelessWidget {
                         width: 165*fem,
                         height: 22*fem,
                         child: Text(
-                          'Dominik Ocsofszki',
+                          'Dominik Ocsofszki (DRAFT! 05.04.2023)',
                           textAlign: TextAlign.center,
                           style: SafeGoogleFont (
                             'Inter',
@@ -341,10 +341,10 @@ class Scene extends StatelessWidget {
                                                 ),
                                               ),
                                               TextSpan(
-                                                text: 'Germany Scholarship –Deutschlandstipendium\n\n',
+                                                text: 'Germany Scholarship – Deutschlandstipendium\n\n',
                                               ),
                                               TextSpan(
-                                                text: 'Abendgymnasium Lahr - Abitur\n2016-2017\n',
+                                                text: 'Abendgymnasium Lahr - Abitur\n2017\n',
                                                 style: SafeGoogleFont (
                                                   'Inter',
                                                   fontSize: 10*ffem,
@@ -401,7 +401,7 @@ class Scene extends StatelessWidget {
                                         maxWidth: 230*fem,
                                       ),
                                       child: Text(
-                                        'Java, Python, Dart, Flutter, jUnit, NumPy, Pandas, PyTorch, Machine Learning, Selenium, Git, Docker',
+                                        'Java, Python, Dart, Flutter, PyTorch, Machine Learning, Selenium, Git, Docker',
                                         style: SafeGoogleFont (
                                           'Inter',
                                           fontSize: 10*ffem,
