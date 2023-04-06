@@ -73,10 +73,11 @@ class Scene extends StatelessWidget {
                     top: 118*fem,
                     child: Align(
                       child: SizedBox(
-                        width: 165*fem,
+                        // width: 165*fem, // ToDo changed
+                        width: 350*fem,
                         height: 22*fem,
                         child: Text(
-                          'Dominik Ocsofszki (DRAFT!!! 05.04.2023)',
+                          'Dominik Ocsofszki - DRAFT!!!',
                           textAlign: TextAlign.center,
                           style: SafeGoogleFont (
                             'Inter',

@@ -5,7 +5,7 @@ cd cv_flutter
 pwd
 
 ## Build flutter app
-flutter build web --build-number  1
+flutter build web
 ## Build flutter app
 
 
