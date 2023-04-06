@@ -754,7 +754,7 @@ class Scene extends StatelessWidget {
                                         ),
                                       ),
                                       TextSpan(
-                                        text: 'Vice-chairman of the student council of computer science\nMember of the student parliament\nMember of the study advisory board for computer science\n\n',
+                                        text: 'Vice-chairman, chairman of the student council of computer science\nMember of the student parliament\nMember of the study advisory board for computer science\n\n',
                                         style: SafeGoogleFont (
                                           'Inter',
                                           fontSize: 10*ffem,
