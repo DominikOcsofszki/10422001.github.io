@@ -8,7 +8,7 @@ import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/a4-1.dart';
 // import 'package:myapp/page-1/a4-2.dart';
 // import 'package:myapp/page-1/a4-3.dart';
-
+import 'package:myapp/page-1/cv-dominik.dart' as cvDominik;
 
 void main() => runApp(MyApp());
 
@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
 		),
 		home: Scaffold(
 		body: SingleChildScrollView(
-			child: Scene(),
+			// child: Scene(),
+			child: cvDominik.Scene(),
 		),
 		),
 	);
