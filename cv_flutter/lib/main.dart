@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       scrollBehavior: MyCustomScrollBehavior(),
       theme: ThemeData(
-        fontFamily: 'Raleway',
+        // fontFamily: 'Times',
         primarySwatch: Colors.orange,
       ),
       home: Scaffold(

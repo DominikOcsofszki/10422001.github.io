@@ -9,17 +9,24 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
         PointerDeviceKind.mouse,
       };
 }
+bool _useNewFontFamily = false;
+// bool _useNewFontFamily = true;
+// String _newFontFamily = 'Times';
+String? _newFontFamily;
 
 // TextStyle MyFonts(
 TextStyle MyFont(String fontFamily,
     {required double fontSize, required FontWeight fontWeight,
       required double height, required Color color}) {
+  String? newFontFamily =  !_useNewFontFamily ? fontFamily : _newFontFamily;
   return TextStyle(
-    fontFamily: fontFamily,
+    fontFamily: newFontFamily,
     fontSize: fontSize,
     fontWeight: fontWeight,
     height: height,
     color: color,
   );
 }
+
+
 

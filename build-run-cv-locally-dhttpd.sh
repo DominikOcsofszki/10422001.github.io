@@ -3,7 +3,7 @@
 pwd
 cd cv_flutter
 pwd
-PORTDHTTPD='1996'
+PORTDHTTPD='2000'
 ## DSGVO Build flutter app
 flutter build web \
   --dart-define=FLUTTER_WEB_CANVASKIT_URL=/canvaskit/ \
