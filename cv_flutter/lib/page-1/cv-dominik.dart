@@ -80,7 +80,7 @@ class Scene extends StatelessWidget {
                           width: 350 * fem,
                           height: 22 * fem,
                           child: Text(
-                            'Dominik Ocsofszki - DRAFT!!!',
+                            'Dominik Ocsofszki - DRAFT2!!!',
                             textAlign: TextAlign.center,
                             style: SafeGoogleFont(
                               'Inter',
