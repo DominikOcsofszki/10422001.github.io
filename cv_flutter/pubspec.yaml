@@ -41,7 +41,11 @@ flutter:
 fonts:
   - family: Inter
     fonts:
-      - asset: assets/fonts/Inter
+      - asset: assets/fonts/Inter/static
   - family: Roboto
     fonts:
-      - asset: assets/fonts/Roboto
+      - asset: assets/google_fonts/Roboto-Regular.ttf
+  - fonts:
+      - family: Roboto
+        fonts:
+          - asset: google_fonts/Roboto-Regular.ttf
