@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:ui';
+// import 'dart:ui';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
@@ -80,8 +80,9 @@ class Scene extends StatelessWidget {
                           child: Text(
                             'Dominik Ocsofszki - DRAFT2!!!',
                             textAlign: TextAlign.center,
-                            style: SafeGoogleFont(
-                              'Inter',
+                            style: TextStyle(
+                              fontFamily: 'Inter',
+                              // 'Inter',
                               fontSize: 18 * ffem,
                               fontWeight: FontWeight.w700,
                               height: 1.2125 * ffem / fem,
