@@ -5,8 +5,15 @@ cd cv_flutter
 pwd
 
 ## Build flutter app
-flutter build web
+#flutter build web
 ## Build flutter app
+
+## DSGVO Build flutter app
+flutter build web \
+  --dart-define=FLUTTER_WEB_CANVASKIT_URL=/canvaskit/ \
+  --web-renderer canvaskit \
+  --release
+## DSGVO Build flutter app
 
 
 cp -R build/web/ ..
