@@ -4,7 +4,6 @@ import 'package:myapp/page-1/cv-dominik.dart' as cvDominik;
 
 // void main() => runApp(MyApp());
 void main() {
-  // GoogleFonts.config.allowRuntimeFetching = false;
   runApp(MyApp());
 }
 

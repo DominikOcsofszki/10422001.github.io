@@ -102,7 +102,7 @@ class Scene extends StatelessWidget {
                 child: Text(
                   '(+49)1631662666 | dominik.ocsofszki@smail.inf.h-brs.de',
                   textAlign: TextAlign.center,
-                  style: SafeGoogleFont(
+                  style: MyFont(
                     'Inter',
                     fontSize: 10 * ffem,
                     fontWeight: FontWeight.w400,
@@ -151,7 +151,7 @@ class Scene extends StatelessWidget {
                                               0 * fem, 0 * fem, 6 * fem),
                                           child: Text(
                                             'Education',
-                                            style: SafeGoogleFont(
+                                            style: MyFont(
                                               'Inter',
                                               fontSize: 18 * ffem,
                                               fontWeight: FontWeight.w700,
@@ -169,7 +169,7 @@ class Scene extends StatelessWidget {
                                           ),
                                           child: RichText(
                                             text: TextSpan(
-                                              style: SafeGoogleFont(
+                                              style: MyFont(
                                                 'Inter',
                                                 fontSize: 12 * ffem,
                                                 fontWeight: FontWeight.w700,
@@ -183,7 +183,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2022-2023\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -197,7 +197,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2020-Current\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -208,7 +208,7 @@ class Scene extends StatelessWidget {
                                                 TextSpan(
                                                   text:
                                                       'Current average (1.7)\nSpecialization: complex software systems\n\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w400,
@@ -222,7 +222,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2019-2020\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -233,7 +233,7 @@ class Scene extends StatelessWidget {
                                                 TextSpan(
                                                   text:
                                                       'Change of study program\n\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w400,
@@ -247,7 +247,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2016-2017\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -257,7 +257,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: 'Final grade (1.4)\n\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w400,
@@ -271,7 +271,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2014-2016\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -282,7 +282,7 @@ class Scene extends StatelessWidget {
                                                 TextSpan(
                                                   text:
                                                       'Change in the upper school to the Abendgymnasium Lahr\n\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w400,
@@ -315,7 +315,7 @@ class Scene extends StatelessWidget {
                                               0 * fem, 0 * fem, 10 * fem),
                                           child: Text(
                                             'Honors & Awards',
-                                            style: SafeGoogleFont(
+                                            style: MyFont(
                                               'Inter',
                                               fontSize: 18 * ffem,
                                               fontWeight: FontWeight.w700,
@@ -331,7 +331,7 @@ class Scene extends StatelessWidget {
                                           ),
                                           child: RichText(
                                             text: TextSpan(
-                                              style: SafeGoogleFont(
+                                              style: MyFont(
                                                 'Inter',
                                                 fontSize: 10 * ffem,
                                                 fontWeight: FontWeight.w400,
@@ -342,7 +342,7 @@ class Scene extends StatelessWidget {
                                                 TextSpan(
                                                   text:
                                                       'Hochschule-Bonn-Rhein-Sieg\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 12 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -352,7 +352,7 @@ class Scene extends StatelessWidget {
                                                 ),
                                                 TextSpan(
                                                   text: '2020-2021\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -367,7 +367,7 @@ class Scene extends StatelessWidget {
                                                 TextSpan(
                                                   text:
                                                       'Abendgymnasium Lahr - Abitur\n2017\n',
-                                                  style: SafeGoogleFont(
+                                                  style: MyFont(
                                                     'Inter',
                                                     fontSize: 10 * ffem,
                                                     fontWeight: FontWeight.w700,
@@ -412,7 +412,7 @@ class Scene extends StatelessWidget {
                                             0 * fem, 0 * fem, 0 * fem, 4 * fem),
                                         child: Text(
                                           'Technical Skills',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 18 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -430,7 +430,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         child: Text(
                                           'Java, Python, Dart, Flutter, PyTorch, Machine Learning, Selenium, Git, Docker',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -461,7 +461,7 @@ class Scene extends StatelessWidget {
                                             0 * fem, 0 * fem, 10 * fem),
                                         child: Text(
                                           'Language Skills',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 18 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -489,7 +489,7 @@ class Scene extends StatelessWidget {
                                               ),
                                               child: Text(
                                                 'German\nEnglish\nItalian',
-                                                style: SafeGoogleFont(
+                                                style: MyFont(
                                                   'Inter',
                                                   fontSize: 12 * ffem,
                                                   fontWeight: FontWeight.w700,
@@ -631,7 +631,7 @@ class Scene extends StatelessWidget {
                                       0 * fem, 0 * fem, 0 * fem, 8 * fem),
                                   child: Text(
                                     'Work Experience',
-                                    style: SafeGoogleFont(
+                                    style: MyFont(
                                       'Inter',
                                       fontSize: 18 * ffem,
                                       fontWeight: FontWeight.w700,
@@ -649,7 +649,7 @@ class Scene extends StatelessWidget {
                                   ),
                                   child: RichText(
                                     text: TextSpan(
-                                      style: SafeGoogleFont(
+                                      style: MyFont(
                                         'Inter',
                                         fontSize: 12 * ffem,
                                         fontWeight: FontWeight.w700,
@@ -662,7 +662,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2021-2022\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -673,7 +673,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Tutor - SHK\nCertificate Program E-Tutor\nFirst Semester Mentor\n\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -686,7 +686,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2010-2017\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -697,7 +697,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Technical draftsman\nCNC milling - small and medium series\n\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -711,7 +711,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2013\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -721,7 +721,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: 'Turning and milling\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -731,7 +731,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 12 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -745,7 +745,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2010-2014\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -756,7 +756,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Hydraulik Power Team GmbH, 77749 Hohberg\nFinal grade (2.0)',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -784,7 +784,7 @@ class Scene extends StatelessWidget {
                                       0 * fem, 0 * fem, 0 * fem, 7.87 * fem),
                                   child: Text(
                                     'Volunteer Work',
-                                    style: SafeGoogleFont(
+                                    style: MyFont(
                                       'Inter',
                                       fontSize: 18 * ffem,
                                       fontWeight: FontWeight.w700,
@@ -800,7 +800,7 @@ class Scene extends StatelessWidget {
                                   ),
                                   child: RichText(
                                     text: TextSpan(
-                                      style: SafeGoogleFont(
+                                      style: MyFont(
                                         'Inter',
                                         fontSize: 12 * ffem,
                                         fontWeight: FontWeight.w700,
@@ -813,7 +813,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2021-2022\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -824,7 +824,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Vice-chairman, chairman of the student council of computer science\nMember of the student parliament\nMember of the study advisory board for computer science\n\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -838,7 +838,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2020-2022\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -849,7 +849,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Assistance in the planning of a startup evening, Ideathon\n\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,
@@ -863,7 +863,7 @@ class Scene extends StatelessWidget {
                                         ),
                                         TextSpan(
                                           text: '2017-2019\n',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w700,
@@ -874,7 +874,7 @@ class Scene extends StatelessWidget {
                                         TextSpan(
                                           text:
                                               'Voluntary Ecumenical Peace Service (IJFD)\nOther Service Abroad (ADiA)\nMainly responsible for the kitchen.\nCoordinating and planning for welcoming guests, maintenance of the center.\nAssisted in the planning and execution of the one-week camps/seminars: International Political Camp, Erasmus+ Project #TEVIP, Campo Precadetti/e',
-                                          style: SafeGoogleFont(
+                                          style: MyFont(
                                             'Inter',
                                             fontSize: 10 * ffem,
                                             fontWeight: FontWeight.w400,

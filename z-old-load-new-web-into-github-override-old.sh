@@ -22,8 +22,8 @@ cd ..
 pwd
 
 git add .
-git commit -m 'added by script load-new-web-into-github-override-old.sh'
+git commit -m 'added by script z-old-load-new-web-into-github-override-old.sh'
 git push
 
 
-# Path: load-new-web-into-github-override-old.sh
+# Path: z-old-load-new-web-into-github-override-old.sh
