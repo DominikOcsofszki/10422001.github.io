@@ -10,7 +10,7 @@ flutter build web \
   --web-renderer canvaskit \
   --profile \
   --output ..
-flutter build web --output ..
+#flutter build web --output ..
 ## Output into the root folder of the project
 cd ..
 git add .
