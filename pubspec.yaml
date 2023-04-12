@@ -31,21 +31,21 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/page-1/images/vector-1.png
-    - assets/page-1/images/auto-group-fpil.png
-    - assets/page-1/images/auto-group-y2ac.png
-    - assets/page-1/images/auto-group-l9ui.png
-    - assets/page-1/images/vector-2.png
-    - assets/page-1/images/auto-group-ugme.png
+    - cv_flutter/assets/page-1/images/vector-1.png
+    - cv_flutter/assets/page-1/images/auto-group-fpil.png
+    - cv_flutter/assets/page-1/images/auto-group-y2ac.png
+    - cv_flutter/assets/page-1/images/auto-group-l9ui.png
+    - cv_flutter/assets/page-1/images/vector-2.png
+    - cv_flutter/assets/page-1/images/auto-group-ugme.png
     -
 fonts:
   - family: Inter
     fonts:
-      - asset: assets/fonts/Inter/static
+      - asset: cv_flutter/assets/fonts/Inter/static
   - family: Roboto
     fonts:
-      - asset: assets/google_fonts/Roboto-Regular.ttf
+      - asset: cv_flutter/assets/google_fonts/Roboto-Regular.ttf
   - fonts:
       - family: Roboto
         fonts:
-          - asset: google_fonts/Roboto-Regular.ttf
+          - asset: cv_flutter/google_fonts/Roboto-Regular.ttf
