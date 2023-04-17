@@ -13,7 +13,7 @@ flutter build web \
 cd ..
 git add .
 #git commit -m 'added by script z-old-load-new-web-into-github-override-old.sh'
-git commit -m 'changed web-renderer to html, thereby not downloading gstatic! dsgvo compliant '
+git commit -m 'added const'
 git push
 
 #  --web-renderer canvaskit \
