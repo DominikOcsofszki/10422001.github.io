@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/utils.dart';
+import '/utils.dart';
 
 class Scene extends StatelessWidget {
   @override
@@ -78,7 +78,7 @@ class Scene extends StatelessWidget {
                           width: 350 * fem,
                           height: 22 * fem,
                           child: Text(
-                            'Dominik Ocsofszki - DRAFT2!!!',
+                            'Draft:Dominik Ocsofszki',
                             textAlign: TextAlign.center,
                             style: MyFont(
                               'Inter',
@@ -100,7 +100,7 @@ class Scene extends StatelessWidget {
                 margin:
                     EdgeInsets.fromLTRB(2 * fem, 0 * fem, 0 * fem, 10 * fem),
                 child: Text(
-                  '(+49)1631662xxx | dominik.ocsofszki@smail.inf.h-brs.de',
+                  '(+49)1631662xxx | 10422001@student.vgu.edu.vn | dominik.ocsofszki@smail.inf.h-brs.de',
                   textAlign: TextAlign.center,
                   style: MyFont(
                     'Inter',

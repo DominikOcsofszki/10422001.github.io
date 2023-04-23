@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/utils.dart';
-import 'package:myapp/page-1/cv-dominik.dart' as cvDominik;
+import 'utils.dart';
+import 'page-1/cv-dominik.dart' as CvDominik;
 
 // void main() => runApp(MyApp());
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: SingleChildScrollView(
           // child: Scene(),
-          child: cvDominik.Scene(),
+          child: CvDominik.Scene(),
         ),
       ),
     );
